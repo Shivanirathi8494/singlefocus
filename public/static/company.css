@@ -29,6 +29,9 @@ body {
   .bg-grey {
     background-color: #f6f6f6;
   }
+  .bg-black {
+    background-color: #000000;
+  }
   .logo-small {
     color: #cd2653;
     font-size: 50px;
@@ -180,18 +183,20 @@ body {
     }
   }
 /* Style all font awesome icons */
-.fa {
-  padding: 10px;
-  font-size: 10px;
-  width: 10px;
+.fab {
+  padding:20 px;
+  font-size: 30px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
+  margin: 7px 4px;
   /*border-radius: 50%;*/
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+  color: white !important;
+  opacity: 0.9;
 }
 
 /* Set a specific color for each brand */
@@ -211,7 +216,7 @@ body {
   color: white;
 }
 .fa-instagram {
-  background: #125688;
+  background: #ff6900;
   color: white;
 }
 .section{
