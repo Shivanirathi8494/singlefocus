@@ -121,7 +121,9 @@ body {
     line-height: 1.42857143;
     letter-spacing: 4px;
     border-radius: 0;
-    min-height: 60px;
+    min-height: 70px;
+    padding-top: 20px;
+    padding-bottom: 5px;
     font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
@@ -130,6 +132,8 @@ body {
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #fff !important;
     background-color: #cd2653 !important;
+    border-radius: 5px;
+    /*min-height: 70px;*/
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -231,4 +235,25 @@ body {
 .top-section-text
 {
   font-size: 40px;
+}
+.img-manual
+{
+  width: 160px;
+  height: 40px;
+
+}
+.img-productivity
+{
+  width: 400px;
+  height: 400px;
+}
+
+.img-todolist
+{
+  width: 300px;
+  height: 150px;
+}
+.btn-tool
+{
+  border-color: #ffffff;
 }
