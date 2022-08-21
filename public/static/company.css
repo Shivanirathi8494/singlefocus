@@ -29,8 +29,8 @@ body {
   .bg-grey {
     background-color: #f6f6f6;
   }
-  .bg-black {
-    background-color: #000000;
+  .bg-grey-dark {
+    background-color: #424242;
   }
   .logo-small {
     color: #cd2653;
@@ -113,14 +113,15 @@ body {
     color: #fff;
   }
   .navbar {
-    margin-bottom: 0;
+    margin-bottom: 30;
     background-color: #ffffff;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
-    line-height: 1.42857143 !important;
+    line-height: 1.42857143;
     letter-spacing: 4px;
     border-radius: 0;
+    min-height: 60px;
     font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
